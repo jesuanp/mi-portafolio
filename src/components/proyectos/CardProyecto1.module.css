@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5em;
+    border: 2px solid purple;
+    width: 19em;
+    border-radius: 0.4em;
+
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    margin: 0em 2em;
+
+}
+
+.img {
+    width: 17em;
+    height: 10em;
+    margin: 0.5em 0em;
+}

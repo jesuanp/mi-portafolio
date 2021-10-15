@@ -1,10 +1,17 @@
-.enlaces .a{
-	margin: 1em;
-	text-decoration: none;
-	color: yellow;
-}
-.enlaces{
-	margin-top: 1em;
+.nav {
+	background-color: rgba(128, 0, 128, 0.178);
+	width: 100%;
+	height: 4em;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
 	position: fixed;
-	z-index: 1;
+	top: 0px;
+}
+
+.a {
+	margin: 0em 1.5em;
+	text-decoration: none;
+	color: white;
 }

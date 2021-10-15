@@ -4,11 +4,12 @@ import s from './Nav.module.css';
 export default function Nav(){
 
 	return (
-		<div className={s.enlaces}>
-			<a className={s.a} href="#About">About</a>
-			<a className={s.a} href="#Sobre-mi">Sobre mi</a>
-			<a className={s.a} href="#Skills">Skills</a>
-			<a className={s.a} href="#Contact">Contact</a>
-		</div>
-		)
+		<nav className={s.nav}>
+			<div className={s.links}>
+				<a className={s.a} href="#">Proyectos</a>
+				<a className={s.a} href="#">Tecnologias</a>
+				<a className={s.a} href="#">Contacto</a>
+			</div>
+		</nav>
+	)
 }
