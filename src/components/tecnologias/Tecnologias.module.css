@@ -4,12 +4,12 @@
 
 .imgReact {
     width: 3em;
-    align-self: center;
+    align-self: flex-start;
 }
 
 .imgDataBase {
     width: 3em;
-    align-self: center;
+    align-self: flex-start;
 }
 
 .tecno {
@@ -18,8 +18,13 @@
     justify-content: center;
 }
 
-.tecno div {
+.frontBack {
     display: flex;
     flex-direction: column;
     margin: 2em 1em;
+}
+
+.p {
+    margin-bottom: 0.3em;
+    font-size: 1.3em;
 }
