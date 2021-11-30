@@ -15,6 +15,9 @@
     margin: 0em 2em;
 
 }
+.card:hover {
+    cursor: pointer;
+}
 
 .img {
     width: 17em;

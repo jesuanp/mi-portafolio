@@ -1,0 +1,27 @@
+.ventanaEmergenteOculta {
+    position: absolute;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 2;
+    visibility: hidden;
+    background-color: rgba(0, 0, 0, 0.6);
+
+}
+
+.ventanaEmergenteVisible {
+    visibility: visible;
+}
+
+.cardVentana {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 5rem;
+}
+
+.img {
+    width: 20rem;
+}
