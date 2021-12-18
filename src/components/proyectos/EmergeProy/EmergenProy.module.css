@@ -8,7 +8,9 @@
     z-index: 2;
     visibility: hidden;
     background-color: rgba(0, 0, 0, 0.6);
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .ventanaEmergenteVisible {
@@ -17,11 +19,117 @@
 
 .cardVentana {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    margin: 5rem 5rem;
+    flex-direction: column;
+    background-color: #4C0070;
+    overflow: auto;
+    max-height: 85vh;
+    width: 95%;
+    border-radius: 0.4rem;
+}
+
+.divBtn {
+    align-self: flex-end;
+    margin: 0.5rem;
+}
+
+.containerInfo {
+    width: 100%;
+}
+
+.divImg {
+    position: relative;
+    width: 100%;
+    text-align: center;
 }
 
 .img {
-    width: 20rem;
+    width: 95%;
+}
+
+.divH3 {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.divSpan {
+    position: relative;
+    margin: 1rem .7rem 1.5rem .7rem;
+    max-width: 85rem;
+}
+
+.spanTitle {
+    margin-bottom: 0.2rem;
+}
+.spanTitle span {
+    font-size: 1.2rem;
+}
+
+.btnClose {
+    font-size: 1.5rem;
+}
+
+.divLink {
+    position: relative;
+    margin: 1rem .7rem 2rem .7rem;
+}
+
+/* vvvvvv scrol vvvvvv */
+/* Estilos para motores Webkit y blink (Chrome, Safari, Opera... )*/
+
+.cardVentana::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.cardVentana::-webkit-scrollbar:vertical {
+    width:10px;
+}
+
+.cardVentana::-webkit-scrollbar-button:increment,.cardVentana::-webkit-scrollbar-button {
+    display: none;
+}
+
+.cardVentana::-webkit-scrollbar-thumb {
+    background-color: #797979;
+    border-radius: 5px;
+    border: 2px solid #f1f2f3;
+}
+
+.cardVentana::-webkit-scrollbar-track {
+    border-radius: 10px;  
+}
+
+/* ^^^^^^ scrol ^^^^^^ */
+
+@media (min-width: 600px) {
+
+    .containerInfo {
+        width: 600px;
+    }
+
+    
+}
+
+@media (min-width: 1100px) {
+
+    .containerInfo {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .divH3 {
+        margin-top: 0px;
+    }
+
+    .divImg {
+        align-self: center;
+        margin-bottom: 2rem;
+    }
+
+    .cardVentana {
+        max-height: 78vh;
+    }
 }

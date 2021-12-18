@@ -8,14 +8,20 @@ export default function CardsProyectos(){
 
     const [state, setState] = useState(false)
 
+    const [infoCard, setInfoCard] = useState(null)
+
     return (
         <>
-        <EmergenProy state={state} setState={setState} />
+        <EmergenProy state={state} setState={setState} infoCard={infoCard} />
         <div className={s.container}>
-            <h1 id="Proyectos">Mis Proyectos</h1>
+            <div id="Proyectos"></div>
+            <br />
+            <br />
+            <br />
+            <h1 className={s.proyectos} >Mis Proyectos</h1>
             <div className={s.cards}>
-                <CardProyecto1 setState={setState} />
-                <CardProyecto2 setState={setState} />
+                <CardProyecto1 setState={setState} setInfoCard={setInfoCard} />
+                <CardProyecto2 setState={setState} setInfoCard={setInfoCard} />
             </div>
         </div>
         </>

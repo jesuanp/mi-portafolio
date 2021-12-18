@@ -1,25 +1,62 @@
 import React from 'react';
 import s from './EmergenProy.module.css';
-import Corousel from './Carousel'
+// import Corousel from './Carousel'
 
-export default function EmergenProy({state, setState}){
+export default function EmergenProy({state, setState, infoCard}){
 
     return (
         <div className={`${s.ventanaEmergenteOculta} ${state && s.ventanaEmergenteVisible}`}>
             <div className={s.cardVentana}>
 
-                <div>
-                    <button className="btn btn-dark" onClick={()=>setState(false)}>Cerrar</button>
-                </div>
-                {/* <div>
-                    descripción
-                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt rem maxime sit totam, porro autem officiis impedit ullam praesentium? Numquam, accusamus delectus! Consequuntur repellat saepe sapiente quas tempora quod explicabo at magni nostrum ipsam distinctio repudiandae iusto, quos a minus neque ratione sit aut officia asperiores quia veritatis. Vel, dolorem!</span>
-                </div> */}
-                
-                <div>
-                    <Corousel />
+                <div className={s.divBtn}>
+                    <button className={`btn btn-close ${s.btnClose}`} onClick={()=>setState(false)}></button>
                 </div>
 
+                <div className={s.containerInfo}>
+
+                    <div className={s.divImg}>
+                        <img src={infoCard && infoCard.img} className={s.img} alt="imagen del proyecto" />
+                    </div>
+
+                    <div>
+
+                        <div className={s.divH3}>
+                            <h3>
+                                {infoCard && infoCard.title}
+                            </h3>
+                        </div>
+
+                        <div className={s.divSpan}>
+
+                            <div className={s.spanTitle}>
+                                <span>
+                                    Descripción:
+                                </span>
+                            </div>
+
+                            <span>
+                                {infoCard && infoCard.description}
+                            </span>
+                        </div>
+
+                        <div className={s.divSpan}>
+                            <div className={s.spanTitle}>
+                                <span>
+                                    Tecnologías implementadas:
+                                </span>
+                            </div>
+
+                            <span>
+                                {infoCard && infoCard.tecnologias}
+                            </span>
+                        </div>
+
+                        <div className={s.divLink}>
+                            <a href={infoCard && infoCard.link.url} target="_blank" without rel="noreferrer">{infoCard && infoCard.link.tipo}</a>
+                        </div>
+
+                    </div>
+                </div>
             </div>
         </div>
     )
