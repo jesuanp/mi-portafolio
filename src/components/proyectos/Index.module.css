@@ -9,12 +9,10 @@
 }
 
 .container {
-    margin-top: 7em;
-    margin-bottom: 4em;
-}
-
-.proyectos {
-    margin-left: 2em;
+    margin-top: 3em;
+    padding-bottom: 3rem;
+    text-align: center;
+    background-color: #2B2B2B;
 }
 
 .cards {
@@ -22,7 +20,7 @@
 }
 
 .proyectos {
-    margin-bottom: 7rem
+    margin-bottom: 4rem
 }
 
 @media (max-width: 650px) {

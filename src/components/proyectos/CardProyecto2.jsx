@@ -8,7 +8,7 @@ export default function CardProyecto2({setState, setInfoCard}){
     const img = "https://pbs.twimg.com/media/FG6-ZSlXwAICNv-?format=jpg&name=small";
     const tecnologias = "React, Redux";
     const link = {
-        url: 'https://criptomonedas-mocha.vercel.app',
+        url: 'https://criptomonedas-jesuanp.vercel.app',
         tipo: 'Pagina web del proyecto',
     };
 

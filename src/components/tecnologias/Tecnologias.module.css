@@ -1,35 +1,90 @@
 .container {
-    margin: 12em 4em 10em 4em;
+    margin: 5em 4em 0em 4em;
+    text-align: center;
 }
 
-.imgReact {
-    width: 3em;
-    align-self: flex-start;
+.divScroll {
+    margin-top: 0rem;
 }
 
-.imgDataBase {
-    width: 3em;
-    align-self: flex-start;
+.divTitle {
+    margin-bottom: 3rem;
 }
 
-.tecno {
+.divImg {
+    width: 5rem;
+    height: 5rem;
     display: flex;
-    flex-direction: row;
     justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.divImg img{
+    width: 5rem;
+    object-fit: contain;
+    margin: auto;
+}
+
+.extra {
+    width: 7rem;
+    height: 3rem;
+    position: relative;
+}
+.iconLargo {
+    position: absolute;
+    top: -2rem;
+}
+
+.divInfo {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
 }
 
 .frontBack {
     display: flex;
-    flex-direction: column;
-    margin: 2em 1em;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
 }
 
-.p {
-    margin-bottom: 0.3em;
-    font-size: 1.3em;
-}
-
-.divSpan {
+.erramientasYBaseDeDatos {
     display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+.frontEnd {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     flex-direction: column;
+    gap: 1.5rem;
+}
+
+.backEnd {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.baseDeDatos {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.erramientas {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5rem;
 }
