@@ -8,7 +8,7 @@ export default function Footer () {
         <div className={s.footer}>
 
             <div className={s.contacto}>
-                <h2>Contacto</h2>
+                <h2 id='Contacto'>Contacto</h2>
             </div>
 
             <div className={s.redes}>

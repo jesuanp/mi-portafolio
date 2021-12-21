@@ -18,7 +18,8 @@ export default function CardsProyectos(){
             <br />
             <br />
             <br />
-            <h1 className={s.proyectos} >Mis Proyectos</h1>
+            <h1>Mis Proyectos</h1>
+            <div className={s.boderBottom}></div>
             <div className={s.cards}>
                 <CardProyecto1 setState={setState} setInfoCard={setInfoCard} />
                 <CardProyecto2 setState={setState} setInfoCard={setInfoCard} />
