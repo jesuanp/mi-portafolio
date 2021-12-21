@@ -13,11 +13,8 @@ export default function CardsProyectos(){
     return (
         <>
         <EmergenProy state={state} setState={setState} infoCard={infoCard} />
+        <div id="Proyectos"></div>
         <div className={s.container}>
-            <div id="Proyectos"></div>
-            <br />
-            <br />
-            <br />
             <h1>Mis Proyectos</h1>
             <div className={s.boderBottom}></div>
             <div className={s.cards}>

@@ -12,7 +12,10 @@ export default function Presentacion(){
 					<a href="../../docs/CV-JESUAN.pdf" download="CV-JESUAN.pdf" className={s.descargaCV}>Descargar CV</a>
 				</div>
 			</div>
-			<img className={s.img} src="https://play-lh.googleusercontent.com/VSwHQjcAttxsLE47RuS4PqpC4LT7lCoSjE7Hx5AW_yCxtDvcnsHHvm5CTuL5BPN-uRTP" alt="Mi foto" />
+
+			<div className={s.divImg}>
+				<img className={s.img} src="https://pbs.twimg.com/media/FHGHz4JXsAAExOn?format=jpg&name=small" alt="Mi foto" />
+			</div>
 		</div>
 	)
 }

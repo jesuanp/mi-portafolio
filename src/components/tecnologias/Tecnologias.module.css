@@ -11,9 +11,9 @@
     margin-bottom: 3rem;
 }
 .borderBottom {
-    width: 15rem;
+    width: 12rem;
     height: 0.5rem;
-    margin: 0.5rem auto auto;
+    margin: 0.5rem auto auto auto;
     border-radius: 2rem;
     background-color: #4c0070;
 }
