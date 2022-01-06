@@ -1,6 +1,5 @@
 import React from 'react';
 import s from './EmergenProy.module.css';
-// import Corousel from './Carousel'
 
 export default function EmergenProy({state, setState, infoCard}){
 

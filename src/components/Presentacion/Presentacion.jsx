@@ -1,5 +1,6 @@
 import React from 'react';
 import s from './Presentacion.module.css';
+import foto from './image/Profile-linkedin-2.jpg';
 
 export default function Presentacion(){
 
@@ -14,7 +15,7 @@ export default function Presentacion(){
 			</div>
 
 			<div className={s.divImg}>
-				<img className={s.img} src="https://pbs.twimg.com/media/FHGHz4JXsAAExOn?format=jpg&name=small" alt="Mi foto" />
+				<img className={s.img} src={foto} alt="Mi foto" />
 			</div>
 		</div>
 	)

@@ -57,14 +57,14 @@
 .frontBack {
     display: flex;
     justify-content: center;
-    gap: 3rem;
+    gap: 2rem;
     flex-wrap: wrap;
 }
 
-.erramientasYBaseDeDatos {
+.herramientasYBaseDeDatos {
     display: flex;
     justify-content: center;
-    gap: 3rem;
+    gap: 2rem;
     flex-wrap: wrap;
 }
 
@@ -92,10 +92,14 @@
     gap: 1.5rem;
 }
 
-.erramientas {
+.herramientas {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
     gap: 1.5rem;
 }
+
+/* @media (min-width: 395px) {
+
+} */
