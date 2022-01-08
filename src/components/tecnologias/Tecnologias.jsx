@@ -24,7 +24,7 @@ export default function Tecnologias(){
             <div className={s.divScroll} id="Tecnologias"></div>
             <div className={s.container}>
                 <div className={s.divTitle}>
-                    <h1>Tecnologias</h1>
+                    <h1>Tecnologías</h1>
                     <div className={s.borderBottom}></div>
                 </div>
 
