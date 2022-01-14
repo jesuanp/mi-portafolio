@@ -9,7 +9,7 @@ export default function Nav(){
 		<nav className={`${s.nav} ${stateMenu && s.navLargo}`}>
 			<div className={s.links}>
 				<a className={s.a} href="#Sobre-mi">Sobre mí</a>
-				<a className={s.a} href="#Tecnologias">Tecnologias</a>
+				<a className={s.a} href="#Tecnologias">Tecnologías</a>
 				<a className={s.a} href="#Proyectos">Proyectos</a>
 				<a className={s.a} href="#Contacto">Contacto</a>
 			</div>
