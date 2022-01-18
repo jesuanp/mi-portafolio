@@ -4,7 +4,7 @@ import img from './images/criptomonedas.jpg'
 
 export default function CardProyecto2({setState, setInfoCard}){
 
-    const title = "App Criptomonedas";
+    const title = "Criptomonedas";
     const description = "Para este proyecto hice una web en donde muestra una tabla con las 100 criptomonedas más reconocidas. En la tabla esta el precio y el porcentaje (de cuanto subió o bajó el precio en 24h) de cada criptomoneda. Tiene un filtro para ordenar en ascendente o descendente por el precio, el porcentaje u ordenar de la A a la Z y viceversa. También puedes buscar una criptomoneda en específico.";
     const tecnologias = "React, Redux";
     const link = {
