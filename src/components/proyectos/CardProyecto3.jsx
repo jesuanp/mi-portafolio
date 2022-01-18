@@ -5,7 +5,7 @@ import img from './images/wather.png';
 export default function CardProyecto2({setState, setInfoCard}){
 
     const title = "Wather App";
-    const description = "Este proyecto lo hice durante el la cursada en el bootcamp y poco a poco la fui mejorando. En esta pagina puedes buscar una ciudad y ver el clima que hace actualmente, también tiene un historial donde se guardan todas la ciudades que buscas.";
+    const description = "En esta pagina puedes buscar una ciudad y ver el clima que hace actualmente, también tiene un historial donde se guardan todas la ciudades que buscas.";
     const tecnologias = "React, Redux";
     const link = {
         url: 'https://wather-app-jesuanp.vercel.app',
