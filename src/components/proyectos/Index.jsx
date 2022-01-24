@@ -1,8 +1,6 @@
 import React, {useState} from 'react';
 import s from './Index.module.css';
 import CardProyecto1 from './CardProyecto1';
-import CardProyecto2 from './CardProyecto2';
-import CardProyecto3 from './CardProyecto3';
 import EmergenProy from './EmergeProy/EmergenProy'
 
 export default function CardsProyectos(){
@@ -21,11 +19,7 @@ export default function CardsProyectos(){
             <div className={s.cards}>
                 <div className={s.cardsProyectos}>
                     <CardProyecto1 setState={setState} setInfoCard={setInfoCard} />
-                    {/* <CardProyecto2 setState={setState} setInfoCard={setInfoCard} /> */}
                 </div>
-                {/* <div className={s.cardsProyectos}>
-                    <CardProyecto3 setState={setState} setInfoCard={setInfoCard} />
-                </div> */}
             </div>
         </div>
         </>

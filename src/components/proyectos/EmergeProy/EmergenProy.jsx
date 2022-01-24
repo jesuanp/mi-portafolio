@@ -55,7 +55,7 @@ export default function EmergenProy({state, setState, infoCard}){
                                 <a href={infoCard && infoCard.link.url} target="_blank" without rel="noreferrer">{infoCard && infoCard.link.tipo}</a>
                             </div>
 
-                            { infoCard && infoCard.link.tipoDos
+                        { infoCard && infoCard.link.tipoDos
                             ?   (   
                                     <div className={s.divLink}>
                                         <a href={infoCard && infoCard.link.urlDos} target="_blank" without rel="noreferrer">{infoCard && infoCard.link.tipoDos}</a>
