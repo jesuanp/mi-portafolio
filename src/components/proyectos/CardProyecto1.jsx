@@ -1,6 +1,7 @@
 import React from 'react';
 import s from './CardProyecto2.module.css';
 import img from './images/videogames.png'
+import proyectos from './proyectos';
 
 export default function CardProyecto1({setState, setInfoCard}){
 
@@ -22,21 +23,28 @@ export default function CardProyecto1({setState, setInfoCard}){
     }
 
     return (
-        <div className={s.card} onClick={()=>{setState(true); setInfoCard(info)}}>
-            <div className={s.container}>
+        <>
+            {
+                proyectos.map(e => (
 
-                <h2>{title}</h2>
+                    <div className={s.card} key={e.id} onClick={()=>{setState(true); setInfoCard(e)}}>
+                        <div className={s.container}>
 
-                <img className={s.img} src={img} alt="foto del proyecto" />
+                            <h2>{e.title}</h2>
 
-                <span>{description}</span>
+                            <img className={s.img} src={e.img} alt="foto del proyecto" />
 
-                <div className={s.verMas}>
-                    <p className={s.p}>Ver más</p>
-                </div>
+                            <span>{e.description}</span>
 
-            </div>
-        </div>
+                            <div className={s.verMas}>
+                                <p className={s.p}>Ver más</p>
+                            </div>
+
+                        </div>
+                    </div>
+                ))
+            }
+        </>
     )
 }
 

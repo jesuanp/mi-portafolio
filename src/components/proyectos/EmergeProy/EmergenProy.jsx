@@ -50,8 +50,21 @@ export default function EmergenProy({state, setState, infoCard}){
                             </span>
                         </div>
 
-                        <div className={s.divLink}>
-                            <a href={infoCard && infoCard.link.url} target="_blank" without rel="noreferrer">{infoCard && infoCard.link.tipo}</a>
+                        <div className={s.divUrl}>
+                            <div className={s.divLink}>
+                                <a href={infoCard && infoCard.link.url} target="_blank" without rel="noreferrer">{infoCard && infoCard.link.tipo}</a>
+                            </div>
+
+                            { infoCard && infoCard.link.tipoDos
+                            ?   (   
+                                    <div className={s.divLink}>
+                                        <a href={infoCard && infoCard.link.urlDos} target="_blank" without rel="noreferrer">{infoCard && infoCard.link.tipoDos}</a>
+                                    </div>
+                                )
+                            :   (
+                                    null
+                                )
+                        }
                         </div>
 
                     </div>

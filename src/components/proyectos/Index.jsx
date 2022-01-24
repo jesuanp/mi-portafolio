@@ -21,11 +21,11 @@ export default function CardsProyectos(){
             <div className={s.cards}>
                 <div className={s.cardsProyectos}>
                     <CardProyecto1 setState={setState} setInfoCard={setInfoCard} />
-                    <CardProyecto2 setState={setState} setInfoCard={setInfoCard} />
+                    {/* <CardProyecto2 setState={setState} setInfoCard={setInfoCard} /> */}
                 </div>
-                <div className={s.cardsProyectos}>
+                {/* <div className={s.cardsProyectos}>
                     <CardProyecto3 setState={setState} setInfoCard={setInfoCard} />
-                </div>
+                </div> */}
             </div>
         </div>
         </>
