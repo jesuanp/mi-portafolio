@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './CardProyecto2.module.css';
+import s from './CardProyecto1.module.css';
 import img from './images/videogames.png'
 import proyectos from './proyectos';
 

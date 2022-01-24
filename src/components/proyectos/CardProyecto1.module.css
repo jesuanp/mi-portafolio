@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 19rem;
+    width: 19em;
     border-radius: 0.4em;
     overflow: hidden;
     max-height: 30rem;
@@ -23,10 +23,11 @@
     align-items: flex-end;
 }
 
+
 .card {
     display: flex;
     justify-content: center;
-    margin: 0px auto;
+    margin: 0px 20px auto 20px;
     width: 19rem;
     border-radius: 0.4rem;
     transition: all 0.3s;
@@ -65,12 +66,5 @@
 
     .img {
         width: 25em;
-    }
-}
-
-@media (max-width: 1100px) {
-
-    .card {
-        margin-bottom: 3rem;
     }
 }
