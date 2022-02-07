@@ -7,7 +7,7 @@ const proyectos = [
     {
         id: 1,
         title: "Videogames App",
-        description: "En esta pagina web se puede ver una variedad de videojuegos o buscar un videojuego en específico (estos juegos los obtengo de una api rest de rawg), los mismo se pueden ordenar de forma ascendente o descendente según rating o de forma alfabética, también se pueden filtrar por genero, plataformas en las que corre el videojuego. Se puede también agregar un videojuego el cual se guarda en la base de datos. A este juego se le puede poner el nombre, el rating, la fecha de.",
+        description: "En esta pagina web se puede ver una variedad de videojuegos o buscar un videojuego en específico (estos juegos los obtengo de una api rest de rawg), los mismo se pueden ordenar de forma ascendente o descendente según rating o de forma alfabética, también se pueden filtrar por genero, plataformas en las que corre el videojuego. Se puede también agregar un videojuego el cual se guarda en la base de datos. A este juego se le puede poner el nombre, el rating, la fecha, etc.",
         tecnologias: "React, Redux, NodeJS, Express, PostgreSQL, Sequelize.",
         link: {
             url: 'https://youtu.be/P1OC0ICplMg',
