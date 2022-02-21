@@ -47,11 +47,16 @@
     margin: 0.5em 0em;
 }
 
-.p {
+.span {
     color: #4b7de2;
+    margin-bottom: .8rem;
 }
-.p:hover {
+.span:hover {
     color: #1858da;
+}
+
+.NavLink {
+    text-decoration: none;
 }
 
 @media (min-width: 550px) {

@@ -34,6 +34,7 @@
 .divSpanMenu {
 	visibility: hidden;
 	position: absolute;
+	cursor: pointer;
 }
 
 .menu {
