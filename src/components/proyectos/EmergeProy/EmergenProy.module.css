@@ -75,6 +75,18 @@
     position: relative;
     margin: 1rem .7rem 2rem .7rem;
 }
+.divLink a {
+    background-color: #F0F0F0;
+    padding: .6rem;
+    border-radius: .3rem;
+    color: black;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+.divLink a:hover {
+    color: black;
+    background-color: #909090;
+}
 
 .divUrl {
     display: flex;
