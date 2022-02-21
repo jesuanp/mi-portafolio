@@ -82,6 +82,8 @@
     color: black;
     text-decoration: none;
     transition: all 0.2s;
+    display: flex;
+    text-align: center;
 }
 .divLink a:hover {
     color: black;
