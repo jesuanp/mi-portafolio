@@ -1,5 +1,5 @@
 import imgVideogames from './images/videogames.png';
-import imgCriptomonedas from './images/criptomonedas.jpg';
+import imgCriptomonedas from './images/criptomonedas.png';
 import imgWather from './images/wather.png';
 import imgMiddleware from './images/middleware.png';
 import mernTasks from './images/MERNtasks.png';

@@ -5,7 +5,7 @@ import Home from './components/Home/Index';
 import EmergenProy from './components/proyectos/EmergeProy/EmergenProy';
 
 // react router dom
-import {BrowserRouter, Routes, Route, Navigate} from 'react-router-dom';
+import {Routes, Route, Navigate} from 'react-router-dom';
 
 function App() {
 
@@ -14,7 +14,6 @@ function App() {
   const [infoCard, setInfoCard] = useState(null);
 
   return (
-    <BrowserRouter>
       <Routes>
 
         <Route path='/' element={<Home state={state} setState={setState} setInfoCard={setInfoCard} />} >
@@ -22,7 +21,6 @@ function App() {
         </Route>
 
       </Routes>
-    </BrowserRouter>
   );
 }
 
