@@ -18,7 +18,7 @@ function App() {
       <Routes>
 
         <Route path='/' element={<Home state={state} setState={setState} setInfoCard={setInfoCard} />} >
-        <Route path='/ventana-emergente' element={state ? <EmergenProy state={state} setState={setState} infoCard={infoCard} /> : <Navigate to='/' /> } />
+          <Route path='/ventana-emergente' element={state ? <EmergenProy state={state} setState={setState} infoCard={infoCard} /> : <Navigate to='/' /> } />
         </Route>
 
       </Routes>
