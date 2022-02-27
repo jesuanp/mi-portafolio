@@ -10,7 +10,7 @@ export default function Presentacion(){
 				<h1 className={s.h1}>Jesuan Patermina</h1>
 				<p className={s.p}>Desarrollador web full-stack</p>
 				<div>
-					<a className={s.descargaCV} href="https://drive.google.com/file/d/1tsRgrmXJKMSA6WTDHGALGIsCSina-y_B/view?usp=sharing" target="_blank" rel="noopener noreferrer">Ver CV</a>
+					<a className={s.descargaCV} href="https://drive.google.com/file/d/1dzzgrDqL5c23hOv_tg2SVxrbhcWd_Y_5/view?usp=sharing" target="_blank" rel="noopener noreferrer">Ver CV</a>
 				</div>
 			</div>
 
