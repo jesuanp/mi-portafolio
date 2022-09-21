@@ -3,6 +3,7 @@ import imgCriptomonedas from './images/criptomonedas.png';
 import imgWather from './images/wather.png';
 import imgMiddleware from './images/middleware.png';
 import mernTasks from './images/MERNtasks.png';
+import CryptoApp from './images/criptomonedas_app.jpg';
 
 const proyectos = [
     {
@@ -61,6 +62,18 @@ const proyectos = [
             tipo: 'Pagina web del proyecto',
         },
         img: imgWather
+    },
+    {
+        id: 6,
+        title: "Criptomonedas App",
+        description: "Este proyecto es una aplicación móvil que desarrolle usando React Native, En esta app puedes ver el precio en dólares de las criptomonedas y buscar una crypto por su nombre. Los datos se obtienen de una Api Rest (CoinGecko).",
+        tecnologias: "React Native",
+        link: {
+            url: 'https://drive.google.com/file/d/1herZt1_bqnMKf1TZlj9Etwi2pA0Oeoho/view?usp=sharing',
+            tipo: 'Link para descargar',
+        },
+        img: CryptoApp,
+        imgType: 'vertical'
     },
 ]
 

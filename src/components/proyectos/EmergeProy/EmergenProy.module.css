@@ -48,6 +48,10 @@
     width: 95%;
 }
 
+.imgVertical {
+    height: 30em;
+}
+
 .divH3 {
     text-align: center;
     margin-top: 1rem;

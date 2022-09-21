@@ -14,7 +14,7 @@ export default function EmergenProy({state, setState, infoCard}){
                 <div className={s.containerInfo}>
 
                     <div className={s.divImg}>
-                        <img src={infoCard && infoCard.img} className={s.img} alt="imagen del proyecto" />
+                        <img src={infoCard && infoCard.img} className={`${infoCard.imgType === 'vertical' ? s.imgVertical : s.img}`} alt="imagen del proyecto" />
                     </div>
 
                     <div>
