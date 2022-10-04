@@ -79,7 +79,7 @@ const proyectos = [
     {
         id: 7,
         title: "Mern Tasks App",
-        description: "Esta App la desarrolle para llevar una guía de las tareas a realizar de cada proyecto. En la App puedes crear una cuenta, agregar proyectos y agregar tareas a cada proyecto, las tareas las puedes aditar, eliminar o ponerlas como completadas. La cuenta se quedará guardada en mongoDB, al igual que los proyectos y las tareas",
+        description: "Esta App la desarrolle para llevar una guía de las tareas a realizar de cada proyecto. En la App puedes crear una cuenta, agregar proyectos y tareas a cada uno de los proyectos proyecto, las tareas las puedes editar, eliminar o ponerlas como completadas. La cuenta se quedará guardada en mongoDB, al igual que los proyectos y las tareas",
         tecnologias: "React Native, node.js, Express, MongoDB, Mongoose",
         link: {
             url: 'https://drive.google.com/file/d/1U80JMrYRXjeGQChxNKZF_pS6UE5IR-_V/view?usp=sharing',
