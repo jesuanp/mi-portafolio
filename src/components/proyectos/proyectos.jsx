@@ -4,6 +4,7 @@ import imgWather from './images/wather.png';
 import imgMiddleware from './images/middleware.png';
 import mernTasks from './images/MERNtasks.png';
 import CryptoApp from './images/criptomonedas_app.jpg';
+import mernTasksApp from './images/image-mern-tasks-app.png'
 
 const proyectos = [
     {
@@ -70,10 +71,21 @@ const proyectos = [
         tecnologias: "React Native",
         link: {
             url: 'https://drive.google.com/file/d/1herZt1_bqnMKf1TZlj9Etwi2pA0Oeoho/view?usp=sharing',
-            tipo: 'Link para descargar',
+            tipo: 'Descargar App',
         },
         img: CryptoApp,
         imgType: 'vertical'
+    },
+    {
+        id: 7,
+        title: "Mern Tasks App",
+        description: "Esta App la desarrolle para llevar una guía de las tareas a realizar de cada proyecto. En la App puedes crear una cuenta, agregar proyectos y agregar tareas a cada proyecto, las tareas las puedes aditar, eliminar o ponerlas como completadas. La cuenta se quedará guardada en mongoDB, al igual que los proyectos y las tareas",
+        tecnologias: "React Native, node.js, Express, MongoDB, Mongoose",
+        link: {
+            url: 'https://drive.google.com/file/d/1U80JMrYRXjeGQChxNKZF_pS6UE5IR-_V/view?usp=sharing',
+            tipo: 'Descargar App',
+        },
+        img: mernTasksApp,
     },
 ]
 
