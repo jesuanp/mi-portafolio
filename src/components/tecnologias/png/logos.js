@@ -14,6 +14,8 @@ import react from './react.png';
 import redux from './redux.png';
 import sequelize from './Sequelize.png';
 import socketIO from './socket-io.svg'
+import php from './php.png';
+import MySql from './mysql.png';
 
 export {
     Bootstrap,
@@ -31,5 +33,7 @@ export {
     react,
     redux,
     sequelize,
-    socketIO
+    socketIO,
+    php,
+    MySql
 }

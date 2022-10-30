@@ -15,7 +15,9 @@ import { Bootstrap,
     react,
     redux,
     sequelize,
-    socketIO } from './png/logos';
+    socketIO,
+    php,
+    MySql } from './png/logos';
 
 export default function Tecnologias(){
 
@@ -62,6 +64,10 @@ export default function Tecnologias(){
                         <div className={s.backEnd}>
                             <h2>Back-End</h2>
                             <div className={s.divImg}>
+                                <img src={php} alt="php" />
+                                <span>php</span>
+                            </div>
+                            <div className={s.divImg}>
                                 <img src={sequelize} alt="Sequelize" />
                                 <span>Sequelize</span>
                             </div>
@@ -106,6 +112,10 @@ export default function Tecnologias(){
                             <div className={s.divImg}>
                                 <img src={postgreSQL} alt="PostgreSQL" />
                                 <span>PostgreSQL</span>
+                            </div>
+                            <div className={s.divImg}>
+                                <img src={MySql} alt="MySql" />
+                                <span>MySql</span>
                             </div>
                             <div className={s.divImg}>
                                 <img src={mongoDB} alt="MongoDB" />
